@@ -1,1 +1,1 @@
-<chart wx:if="{{!!chart}}" chart-class="chart" option="{{ chart.option }}" />
+<chart wx:if="{{!!chart}}" chart-class="chart" option="{{ chart.option }}" notMerge />

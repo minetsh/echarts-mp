@@ -4,10 +4,12 @@ Page({
   data: {
     echarts,
   },
-  onLoad: function () {},
+  onLoad: function () {
+    console.log(this.data.echarts);
+  },
   onTap(event) {
     wx.navigateTo({
-      url: `/pages/chart/index?id=${event.target.dataset.id}`,
+      url: `/pages/chart/index?id=${event.currentTarget.dataset.id}`,
     });
   },
 });

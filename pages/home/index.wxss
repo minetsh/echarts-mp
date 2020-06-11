@@ -8,12 +8,27 @@
 }
 
 .chart {
+  overflow: hidden;
   font-size: 32rpx;
   text-align: center;
   width: calc(50vw - 30rpx);
-  min-height: calc(50vw - 30rpx);
-  line-height: calc(50vw - 30rpx);
-  border-radius: 16rpx;
-  overflow: hidden;
-  box-shadow: 0 6rpx 20rpx rgba(0, 0, 0, 0.12);
+  border-radius: 20rpx;
+  box-shadow: 0 6rpx 20rpx rgba(46, 18, 18, 0.12);
+  margin-bottom: 20rpx;
+}
+
+.chart-hover {
+  opacity: 0.8;
+}
+
+.chart-thumbnail {
+  width: calc(50vw - 30rpx);
+  height: calc((50vw - 30rpx) / 4 * 3);
+}
+
+.chart-title {
+  color: #333333;
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
 }

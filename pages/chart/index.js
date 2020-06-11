@@ -5,6 +5,7 @@ Page({
     chart: null,
   },
   onLoad: function (option) {
+    console.log(option);
     const { id } = option;
     const chart = echarts.find((chart) => chart.id === +id);
     if (!chart) {

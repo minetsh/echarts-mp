@@ -3,7 +3,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "ECharts 示例",
+    "navigationBarTitleText": "ECharts 图表示例",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
