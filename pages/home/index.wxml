@@ -1,0 +1,6 @@
+<!-- index.wxml -->
+<view class="charts">
+  <block wx:for="{{echarts}}" wx:key="id">
+    <view class="chart" data-id="{{item.id}}" bindtap="onTap">{{item.title}}</view>
+  </block>
+</view>

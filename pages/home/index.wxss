@@ -1,0 +1,19 @@
+.charts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+
+.chart {
+  font-size: 32rpx;
+  text-align: center;
+  width: calc(50vw - 30rpx);
+  min-height: calc(50vw - 30rpx);
+  line-height: calc(50vw - 30rpx);
+  border-radius: 16rpx;
+  overflow: hidden;
+  box-shadow: 0 6rpx 20rpx rgba(0, 0, 0, 0.12);
+}
