@@ -1,5 +1,8 @@
 # ECharts 小程序示例
 
+![ECharts Gallery](./screenshot/echarts-gallery.png)
+
+## 预览
 <div style="display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap;">
 <img width="216" height="468" src="./screenshot/charts.jpg"/>
 <img width="216" height="468" src="./screenshot/basic-line-chart.jpg"/>
