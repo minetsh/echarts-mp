@@ -1,4 +1,42 @@
 .chart {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
+}
+
+.footer {
+  height: 10vh;
+  display: flex;
+  padding: 10rpx;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.action {
+  text-align: center;
+}
+
+.action-hover {
+  opacity: 0.8;
+}
+
+.action-iconbox {
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80rpx;
+  box-shadow: 0 6rpx 20rpx rgba(0, 0, 0, 0.12);
+}
+
+.action-icon {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.action-text {
+  color: #333333;
+  font-size: 26rpx;
+  margin-top: 6rpx;
 }

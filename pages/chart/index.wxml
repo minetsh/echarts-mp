@@ -1,1 +1,9 @@
-<chart wx:if="{{!!chart}}" chart-class="chart" option="{{ chart.option }}" notMerge />
+<chart wx:if="{{!!chart}}" chart-class="chart" option="{{ chart.option }}" bindinstance="onInstance" notMerge />
+<view class="footer">
+  <view class="action" hover-class="action-hover" bindtap="onSaveImage">
+    <view class="action-iconbox">
+      <image class="action-icon" mode="aspectFill" src="/images/ic_save.svg" />
+    </view>
+    <view class="action-text">保存</view>
+  </view>
+</view>

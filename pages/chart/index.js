@@ -4,8 +4,8 @@ Page({
   data: {
     chart: null,
   },
+  instance: null,
   onLoad: function (option) {
-    console.log(option);
     const { id } = option;
     const chart = echarts.find((chart) => chart.id === +id);
     if (!chart) {
@@ -23,5 +23,34 @@ Page({
     wx.setNavigationBarTitle({
       title: chart.title,
     });
+  },
+  onInstance(e) {
+    this.instance = e.detail;
+  },
+  onSaveImage() {
+    if (this.instance) {
+      const dom = this.instance.getDom();
+      if (dom) {
+        dom
+          .saveAsImage()
+          .then((path) => {
+            return wx.saveImageToPhotosAlbum({
+              filePath: path,
+            });
+          })
+          .then(() => {
+            wx.showToast({
+              title: '保存成功',
+            });
+          })
+          .catch((e) => {
+            console.error(e);
+            wx.showToast({
+              title: '保存失败',
+              icon: 'none',
+            });
+          });
+      }
+    }
   },
 });
