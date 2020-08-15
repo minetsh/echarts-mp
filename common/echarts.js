@@ -60,6 +60,12 @@ const echarts = [
       'https://echarts.cdn.apache.org/examples//data/thumb/heatmap-cartesian.jpg',
     option: require('./data/heatmap-on-cartesian'),
   },
+  {
+    id: guid(),
+    title: '饼图示例',
+    thumbnail: 'https://s1.ax1x.com/2020/08/15/dklgv6.th.png',
+    option: require('./data/pie-sample'),
+  },
 ];
 
 module.exports = {

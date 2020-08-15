@@ -10,7 +10,7 @@
   "sitemapLocation": "sitemap.json",
   "plugins": {
     "echarts": {
-      "version": "1.0.2",
+      "version": "1.0.4",
       "provider": "wx1db9e5ab1149ea03"
     }
   }
