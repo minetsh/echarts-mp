@@ -1,0 +1,5 @@
+.chart {
+  width: 100vw;
+  height: 80vw;
+  margin-bottom: 20rpx;
+}

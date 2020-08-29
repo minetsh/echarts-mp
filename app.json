@@ -1,10 +1,22 @@
 {
-  "pages": ["pages/home/index", "pages/chart/index"],
+  "pages": ["pages/home/index", "pages/chart/index", "pages/list/index"],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "ECharts 图表示例",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/list/index",
+        "text": "列表"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",

@@ -66,6 +66,12 @@ const echarts = [
     thumbnail: 'https://s1.ax1x.com/2020/08/15/dklgv6.th.png',
     option: require('./data/pie-sample'),
   },
+  {
+    id: guid(),
+    title: '柱状图示例',
+    thumbnail: '',
+    option: require('./data/bar-sample'),
+  },
 ];
 
 module.exports = {
