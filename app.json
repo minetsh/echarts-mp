@@ -22,7 +22,7 @@
   "sitemapLocation": "sitemap.json",
   "plugins": {
     "echarts": {
-      "version": "1.0.5",
+      "version": "1.0.6",
       "provider": "wx1db9e5ab1149ea03"
     }
   }

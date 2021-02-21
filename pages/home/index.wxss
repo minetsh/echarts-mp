@@ -11,7 +11,7 @@
   overflow: hidden;
   font-size: 32rpx;
   text-align: center;
-  width: calc(50vw - 30rpx);
+  width: calc(50% - 15rpx);
   border-radius: 20rpx;
   box-shadow: 0 6rpx 20rpx rgba(46, 18, 18, 0.12);
   margin-bottom: 20rpx;

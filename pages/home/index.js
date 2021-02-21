@@ -9,4 +9,5 @@ Page({
       url: `/pages/chart/index?id=${event.currentTarget.dataset.id}`,
     });
   },
+  onShareAppMessage() {},
 });
