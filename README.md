@@ -22,3 +22,7 @@
 2、克隆此项目，然后将 `project.config.json` 文件中的 appid 替换为你自己的小程序的 appid，否则运行时你会没有开发权限而无法运行项目。
 
 完成以上两步骤后，你就可以正常运行此项目了，Good Luck
+
+## 复杂示例
+
+https://github.com/minetsh/echarts-sample

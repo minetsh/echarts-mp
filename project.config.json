@@ -4,15 +4,17 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
-    "postcss": false,
+    "enhance": true,
+    "postcss": true,
     "preloadBackgroundData": false,
-    "minified": false,
+    "minified": true,
     "newFeature": true,
     "coverView": true,
+    "nodeModules": true,
     "autoAudits": false,
-    "showShadowRootInWxmlPanel": false,
+    "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
     "checkInvalidKey": true,
     "checkSiteMap": true,
@@ -25,7 +27,6 @@
       "disablePlugins": [],
       "outputPath": ""
     },
-    "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": false,
     "userConfirmedUseCompilerModuleSwitch": true,
@@ -37,7 +38,7 @@
   "compileType": "miniprogram",
   "libVersion": "2.11.0",
   "appid": "wx1db9e5ab1149ea03",
-  "projectname": "weapp-javascript",
+  "projectname": "echarts-mp",
   "debugOptions": {
     "hidedInDevtools": []
   },
