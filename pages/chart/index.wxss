@@ -1,6 +1,7 @@
 .chart {
   width: 100vw;
   height: 90vh;
+  transform: rotate(90);
 }
 
 .footer {

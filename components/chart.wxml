@@ -1,0 +1,2 @@
+<!-- components/chart.wxml -->
+<chart width="100vw" height="100vh" option="{{option}}"></chart>

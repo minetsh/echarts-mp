@@ -3,4 +3,5 @@
   <block wx:for="{{charts}}" wx:key="index">
     <chart chart-class="chart" option="{{item.option}}" />
   </block>
+  
 </view>

@@ -6,4 +6,5 @@
       <view class="chart-title">{{item.title}}</view>
     </view>
   </block>
+  <comp option="{{option}}" />
 </view>
